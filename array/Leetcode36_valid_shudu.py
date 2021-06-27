@@ -11,6 +11,7 @@ def test(board):
     9*9的数独
     其中要求每一行上面的数值只出现一次
     每一列上看的数值只出现一次
+    简单的方法是我们利用hash映射 value-> count
     :param board:
     :return:
     """
