@@ -42,3 +42,6 @@ def CountAndSay(num):
 
         get_next(res)
     return res
+
+
+
